@@ -1,0 +1,7 @@
+2023-11-06 13:06:41 INFO  SeleniumJava:35 - loginIntoApplicationTest : login page is displayed
+  2023-11-06 13:06:42 INFO  SeleniumJava:38 - loginIntoApplicationTest : User is successfully able to login
+  2023-11-06 13:06:50 INFO  SeleniumJava:44 - checkRegisterationSection : login page is displayed
+  2023-11-06 13:06:50 INFO  SeleniumJava:46 - checkRegisterationSection : Register Account section is displayed
+  2023-11-06 13:07:01 INFO  SeleniumJava:52 - Invalid : login page is displayed
+  2023-11-06 13:07:02 INFO  SeleniumJava:54 - Invalid : Error Message is displayed for invalid login
+  

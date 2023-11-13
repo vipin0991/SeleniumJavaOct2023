@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase loginIntoApplicationTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase checkRegisterationSection started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase invalid started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase checkUserPageLinks started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase validateHeaderLinks started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase validateLogo started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase addAddressFields started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase addAddressFields started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase userNavigationAddAddressPage started successfully]]>
+    </line>
+    <line>
+      <![CDATA[About to end executing Class Sanity]]>
+    </line>
+    <line>
+      <![CDATA[Testcase checkRegisterUserNavigation started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase validateUserRegisteration started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase checkMonitorsCount started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase navigateToMonitorsPage started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase deleteAddressRecord started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase deleteAddressRecord started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase validateSearchedProductsName started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase placeOrder started successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-10T18:46:50 IST" name="Suite" finished-at="2023-11-10T18:49:55 IST" duration-ms="185183">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T18:46:50 IST" name="Sanity" finished-at="2023-11-10T18:48:20 IST" duration-ms="89461">
+      <class name="com.ecommerce.tests.TC_UserPage_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:14 IST" name="setup" finished-at="2023-11-10T18:47:21 IST" duration-ms="6760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkUserPageLinks()[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:21 IST" name="checkUserPageLinks" finished-at="2023-11-10T18:47:21 IST" duration-ms="422" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.ecommerce.tests.TC_UserPage_002.checkUserPageLinks(TC_UserPage_002.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase checkUserPageLinks started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkUserPageLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:22 IST" name="closeBrowser" finished-at="2023-11-10T18:47:22 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:22 IST" name="setup" finished-at="2023-11-10T18:47:29 IST" duration-ms="7000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateHeaderLinks()[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:29 IST" name="validateHeaderLinks" finished-at="2023-11-10T18:47:29 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase validateHeaderLinks started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateHeaderLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:29 IST" name="closeBrowser" finished-at="2023-11-10T18:47:30 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:30 IST" name="setup" finished-at="2023-11-10T18:47:38 IST" duration-ms="8182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogo()[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:38 IST" name="validateLogo" finished-at="2023-11-10T18:47:38 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase validateLogo started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_UserPage_002@6892b3b6]" started-at="2023-11-10T18:47:38 IST" name="closeBrowser" finished-at="2023-11-10T18:47:38 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_UserPage_002 -->
+      <class name="com.ecommerce.tests.TC_AddAddress_005">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:47:39 IST" name="setup" finished-at="2023-11-10T18:47:51 IST" duration-ms="12001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addAddressFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:47:51 IST" name="addAddressFields" data-provider="getData" finished-at="2023-11-10T18:47:54 IST" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser444]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testUser_L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Madrid]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[28001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase addAddressFields started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAddressFields -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:47:54 IST" name="closeBrowser" finished-at="2023-11-10T18:47:55 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:47:55 IST" name="setup" finished-at="2023-11-10T18:48:04 IST" duration-ms="9681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addAddressFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:48:04 IST" name="addAddressFields" data-provider="getData" finished-at="2023-11-10T18:48:08 IST" duration-ms="3787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testUser_L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Madrid]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[28001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase addAddressFields started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAddressFields -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:48:08 IST" name="closeBrowser" finished-at="2023-11-10T18:48:09 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:48:09 IST" name="setup" finished-at="2023-11-10T18:48:18 IST" duration-ms="9676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userNavigationAddAddressPage()[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:48:18 IST" name="userNavigationAddAddressPage" finished-at="2023-11-10T18:48:19 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase userNavigationAddAddressPage started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userNavigationAddAddressPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_AddAddress_005@6e6f2380]" started-at="2023-11-10T18:48:19 IST" name="closeBrowser" finished-at="2023-11-10T18:48:20 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_AddAddress_005 -->
+      <class name="com.ecommerce.tests.TC_Login_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:46:51 IST" name="setup" finished-at="2023-11-10T18:46:59 IST" duration-ms="7749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginIntoApplicationTest()[pri:1, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:46:59 IST" name="loginIntoApplicationTest" finished-at="2023-11-10T18:47:00 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase loginIntoApplicationTest started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:00 IST" name="closeBrowser" finished-at="2023-11-10T18:47:00 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:00 IST" name="setup" finished-at="2023-11-10T18:47:07 IST" duration-ms="6352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkRegisterationSection()[pri:2, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:07 IST" name="checkRegisterationSection" finished-at="2023-11-10T18:47:07 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase checkRegisterationSection started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkRegisterationSection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:07 IST" name="closeBrowser" finished-at="2023-11-10T18:47:07 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:07 IST" name="setup" finished-at="2023-11-10T18:47:13 IST" duration-ms="6195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalid()[pri:3, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:13 IST" name="invalid" finished-at="2023-11-10T18:47:14 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase invalid started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalid -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Login_001@1ed6388a]" started-at="2023-11-10T18:47:14 IST" name="closeBrowser" finished-at="2023-11-10T18:47:14 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_Login_001 -->
+    </test> <!-- Sanity -->
+    <test started-at="2023-11-10T18:48:20 IST" name="Smoke" finished-at="2023-11-10T18:49:55 IST" duration-ms="95009">
+      <class name="com.ecommerce.tests.TC_Monitor_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Monitor_004@5e2c3d18]" started-at="2023-11-10T18:48:39 IST" name="setup" finished-at="2023-11-10T18:48:47 IST" duration-ms="8675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMonitorsCount()[pri:0, instance:com.ecommerce.tests.TC_Monitor_004@5e2c3d18]" started-at="2023-11-10T18:48:47 IST" name="checkMonitorsCount" finished-at="2023-11-10T18:48:47 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase checkMonitorsCount started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkMonitorsCount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Monitor_004@5e2c3d18]" started-at="2023-11-10T18:48:47 IST" name="closeBrowser" finished-at="2023-11-10T18:48:48 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Monitor_004@5e2c3d18]" started-at="2023-11-10T18:48:48 IST" name="setup" finished-at="2023-11-10T18:48:56 IST" duration-ms="8594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToMonitorsPage()[pri:0, instance:com.ecommerce.tests.TC_Monitor_004@5e2c3d18]" started-at="2023-11-10T18:48:56 IST" name="navigateToMonitorsPage" finished-at="2023-11-10T18:48:56 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase navigateToMonitorsPage started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToMonitorsPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Monitor_004@5e2c3d18]" started-at="2023-11-10T18:48:56 IST" name="closeBrowser" finished-at="2023-11-10T18:48:57 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_Monitor_004 -->
+      <class name="com.ecommerce.tests.TC_Searching_007">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Searching_007@cc43f62]" started-at="2023-11-10T18:49:25 IST" name="setup" finished-at="2023-11-10T18:49:33 IST" duration-ms="7818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSearchedProductsName()[pri:0, instance:com.ecommerce.tests.TC_Searching_007@cc43f62]" started-at="2023-11-10T18:49:33 IST" name="validateSearchedProductsName" finished-at="2023-11-10T18:49:34 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase validateSearchedProductsName started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSearchedProductsName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Searching_007@cc43f62]" started-at="2023-11-10T18:49:34 IST" name="closeBrowser" finished-at="2023-11-10T18:49:35 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_Searching_007 -->
+      <class name="com.ecommerce.tests.TC_PlaceAnOrder_008">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_PlaceAnOrder_008@5b218417]" started-at="2023-11-10T18:49:35 IST" name="setup" finished-at="2023-11-10T18:49:42 IST" duration-ms="7859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="placeOrder()[pri:0, instance:com.ecommerce.tests.TC_PlaceAnOrder_008@5b218417]" started-at="2023-11-10T18:49:42 IST" name="placeOrder" finished-at="2023-11-10T18:49:54 IST" duration-ms="11890" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase placeOrder started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_PlaceAnOrder_008@5b218417]" started-at="2023-11-10T18:49:54 IST" name="closeBrowser" finished-at="2023-11-10T18:49:55 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_PlaceAnOrder_008 -->
+      <class name="com.ecommerce.tests.TC_DeleteAddress_006">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_DeleteAddress_006@2cb4893b]" started-at="2023-11-10T18:48:57 IST" name="setup" finished-at="2023-11-10T18:49:07 IST" duration-ms="9629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteAddressRecord(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_DeleteAddress_006@2cb4893b]" started-at="2023-11-10T18:49:07 IST" name="deleteAddressRecord" data-provider="getRecords" finished-at="2023-11-10T18:49:11 IST" duration-ms="4358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase deleteAddressRecord started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAddressRecord -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_DeleteAddress_006@2cb4893b]" started-at="2023-11-10T18:49:11 IST" name="closeBrowser" finished-at="2023-11-10T18:49:12 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_DeleteAddress_006@2cb4893b]" started-at="2023-11-10T18:49:12 IST" name="setup" finished-at="2023-11-10T18:49:20 IST" duration-ms="8685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteAddressRecord(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_DeleteAddress_006@2cb4893b]" started-at="2023-11-10T18:49:20 IST" name="deleteAddressRecord" data-provider="getRecords" finished-at="2023-11-10T18:49:25 IST" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase deleteAddressRecord started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAddressRecord -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_DeleteAddress_006@2cb4893b]" started-at="2023-11-10T18:49:25 IST" name="closeBrowser" finished-at="2023-11-10T18:49:25 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_DeleteAddress_006 -->
+      <class name="com.ecommerce.tests.TC_Register_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Register_003@7a35b0f5]" started-at="2023-11-10T18:48:20 IST" name="setup" finished-at="2023-11-10T18:48:28 IST" duration-ms="7948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkRegisterUserNavigation()[pri:0, instance:com.ecommerce.tests.TC_Register_003@7a35b0f5]" started-at="2023-11-10T18:48:28 IST" name="checkRegisterUserNavigation" finished-at="2023-11-10T18:48:28 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase checkRegisterUserNavigation started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkRegisterUserNavigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Register_003@7a35b0f5]" started-at="2023-11-10T18:48:28 IST" name="closeBrowser" finished-at="2023-11-10T18:48:29 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ecommerce.tests.TC_Register_003@7a35b0f5]" started-at="2023-11-10T18:48:29 IST" name="setup" finished-at="2023-11-10T18:48:36 IST" duration-ms="7616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserRegisteration()[pri:0, instance:com.ecommerce.tests.TC_Register_003@7a35b0f5]" started-at="2023-11-10T18:48:36 IST" name="validateUserRegisteration" finished-at="2023-11-10T18:48:38 IST" duration-ms="1898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase validateUserRegisteration started successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserRegisteration -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecommerce.tests.TC_Register_003@7a35b0f5]" started-at="2023-11-10T18:48:38 IST" name="closeBrowser" finished-at="2023-11-10T18:48:39 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecommerce.tests.TC_Register_003 -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>
